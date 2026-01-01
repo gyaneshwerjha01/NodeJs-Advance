@@ -1,1 +1,1 @@
-![modules](image.png)
+![modules](./image.png)
