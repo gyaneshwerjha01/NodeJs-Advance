@@ -4,7 +4,6 @@ const promise = createOrder();
 
 promise
   .then((orderId) => {
-    console.log(orderId);
     return proceedToPayment(orderId);
   })
   .then((paymentInfo) => {
